@@ -6,7 +6,7 @@ function PetBrowser({pets,onAdoptPet}) {
   return ( 
     <div className="ui cards">
       {pets.map((pet) =>(
-        <pet key={pet.id} pet={pet} onAdoptPet={onAdoptPet} />
+        <Pet key={pet.id} pet={pet} onAdoptPet={onAdoptPet} />
        ))}
     </div>
   );
